@@ -17,3 +17,5 @@ ADD spotlight.sh /bin/spotlight.sh
 RUN chmod +x /bin/spotlight.sh
 
 EXPOSE 80
+
+ENTRYPOINT ["sh","/bin/spotlight.sh"]
